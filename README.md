@@ -13,7 +13,7 @@ N/A
 
 ## Usage
 
-To use this Prework Study Guide, you can review the notes in each section. For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a list of topics we learned from the prework along with a suggestion on which topic to study first.
+To generate a random password, first by pressing the generate password button. From there you will be asked a few questions about how many characters and what type characters to include in your random password. You will then see the newly generated password on then screen.
 
 ## Technologies
 
