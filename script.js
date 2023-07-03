@@ -38,7 +38,7 @@ function whatCharactersIncluded() {
       i +=1;
     } else {
       text = includeCharacters[i] + " characters not included in password";
-      if (lowerCh == false && i > 2) {
+      if (lowerCh == false && i > 3) {
         if (upperCh == false && numCh == false) {
           if(speCh == false) {
             alert("Must include atleast one type of character.");
@@ -60,13 +60,11 @@ function whatCharactersIncluded() {
 
 
 
-// Get references to the #generate element
-var generateBtn = document.querySelector("#generate");
+
 
 function generatePassword() {
   var numberOfCharacters;
   var characterTypes;
-  var genPassword;
 
   numberOfCharacters = lengthOfPassword();
 
@@ -81,10 +79,32 @@ function generatePassword() {
 // STEP 3
 // WHEN I answer each prompt
 // THEN my input should be validated and at least one character type should be selected
-// *************************************
-// PASSWORD FINAL
-genPassword = "";
-return genPassword;
+  var characters = "";
+  var uppercaseCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var lowercaseCharacters = "abcdefghijklmnopqrstuvwxyz";
+  var numberCharacters = "0123456789";
+  var specialCharacters = "!@#$%^&*()-_=+,<.>/?[]{}`~";
+  if (characterTypes[0] == true) {
+    characters += lowercaseCharacters;
+  }
+  if (characterTypes[1] == true) {
+    characters += uppercaseCharacters;
+  }
+  if (characterTypes[2] == true) {
+    characters += numberCharacters;
+  }
+  if (characterTypes[3] == true) {
+    characters += specialCharacters;
+  }
+  alert(characters);
+
+  var result = "";
+
+  for (var i = 0; i < numberOfCharacters; i++){
+    result = result + characters.charAt(Math.floor(Math.random() * numberOfCharacters));
+  }
+  // PASSWORD FINAL
+  return result;
 }
 
 // Write password to the #password input
@@ -94,8 +114,8 @@ function writePassword() {
 
 // final password
   passwordText.value = password;
-
 }
 
 // Add event listener to generate button
+var generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", writePassword);
