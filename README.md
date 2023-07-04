@@ -18,7 +18,7 @@ N/A
 
 ## Usage
 
-To generate a random password, first by pressing the generate password button. From there you will be asked a few questions about how many characters and what type characters to include in your random password. You will then see the newly generated password on then screen.
+To generate a random password, first by pressing the generate password button. From there you will be asked a few questions about how many characters and what type characters to include in your random password. You will then see the newly generated password on the screen.
 
 ## Technologies
 
