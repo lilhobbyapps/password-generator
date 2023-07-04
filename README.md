@@ -1,4 +1,4 @@
-# password-generator
+# Password Generator
 
 
 ## Description
@@ -6,6 +6,11 @@
 An application that an employee can use to generate a random password based on criteria they've selected.
 
 Link to application: 
+
+<img width="1440" alt="Screen Shot 2023-07-04 at 12 31 18 PM" src="https://github.com/lilhobbyapps/password-generator/assets/9989708/272bed20-9d06-4227-bbbb-203f2ea5ec20">
+
+<img width="1440" alt="Screen Shot 2023-07-04 at 12 32 08 PM" src="https://github.com/lilhobbyapps/password-generator/assets/9989708/1c4c7c2a-b3ae-4416-ac75-16ad738f45a3">
+
 
 ## Installation
 
