@@ -5,7 +5,7 @@
 
 An application that an employee can use to generate a random password based on criteria they've selected.
 
-Link to application: 
+Link to application: https://lilhobbyapps.github.io/password-generator/
 
 <img width="1440" alt="Screen Shot 2023-07-04 at 12 31 18 PM" src="https://github.com/lilhobbyapps/password-generator/assets/9989708/272bed20-9d06-4227-bbbb-203f2ea5ec20">
 
